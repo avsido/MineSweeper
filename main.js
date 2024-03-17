@@ -181,6 +181,7 @@ function render(){
         render();
       };
       cell.oncontextmenu = (ev)=>{
+        ev.preventDefault();
         if (running){
           if (mineField.getCell(i, j).flagged){
             mineField.getCell(i, j).flagged = false;
