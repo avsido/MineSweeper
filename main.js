@@ -1,4 +1,4 @@
-import { MineField } from "./MineField.js";
+import MineField from "./MineField.js";
 // initializing vars:
 let rows; // 8/14/20
 let cols; // 10/18/44
