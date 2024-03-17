@@ -1,4 +1,4 @@
-export class MineField{
+class MineField{
     constructor(rows, cols, factor){
       this.rows = rows;
       this.cols = cols;
@@ -32,3 +32,4 @@ export class MineField{
         }
     }
 }
+export default MineField;
